@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px lightgray;
+    width: 350px;
+    text-align: center;
+}
+
+h2 {
+    color: dodgerblue;
+    margin-bottom: 20px;
+}
+
+input, select {
+    width: 90%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+button {
+    background-color: dodgerblue;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 95%;
+}
+
+button:hover {
+    background-color: royalblue;
+}
+
+a {
+    color: dodgerblue;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.dashboard {
+    width: 500px;
+    padding: 30px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 15px lightgray;
+}
